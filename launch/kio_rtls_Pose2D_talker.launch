@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <launch>
-    <node name="kio_rtls" pkg="kio_rtls" type="kio_rtls_Pose2D.py" respawn="false" output="screen">
+    <node name="kio_rtls" pkg="kio_rtls" type="kio_rtls_Pose2D_talker.py" respawn="false" output="screen">
         <rosparam file="$(find kio_rtls)/config/kio_rtls_Pose2D.yaml" />
     </node> 
 </launch>
