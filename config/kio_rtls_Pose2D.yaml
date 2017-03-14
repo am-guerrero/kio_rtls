@@ -1,0 +1,5 @@
+host: "127.0.0.1"
+port1: 3015
+port2: 3016
+device1: "/dev/ttyACM0"
+device2: "/dev/ttyACM0"

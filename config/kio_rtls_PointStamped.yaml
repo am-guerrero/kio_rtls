@@ -1,0 +1,6 @@
+host: "127.0.0.1"
+port: 3015
+device: "/dev/ttyACM0"
+map_x: 0.0
+map_y: 0.0
+map_z: 0.0

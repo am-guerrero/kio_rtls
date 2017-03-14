@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+    <node name="kio_rtls" pkg="kio_rtls" type="kio_rtls_PointStamped_talker.py" respawn="false" output="screen">
+        <rosparam file="$(find kio_rtls)/config/kio_rtls_PointStamped.yaml" />
+    </node> 
+</launch>
