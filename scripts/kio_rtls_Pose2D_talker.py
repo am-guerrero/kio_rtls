@@ -44,7 +44,7 @@ def talker():
         processes.append(process)
 
     pubOUT = rospy.Publisher("/kio/Pose2D/out", Pose2D, queue_size=10)
-    pubERR = rospy.Publisher("/kio/Pose2D/err", String, queue_size=10)
+    pubERR = rospy.Publisher("/kio/err", String, queue_size=10)
 
     # putting readline of stdout and stderr into non-blocking mode
     for process in processes:
